@@ -1,4 +1,5 @@
-FROM alpine:3.19
+ARG ARCH=
+FROM ${ARCH}alpine:3.19
 
 ENV LANG=C.UTF-8
 
